@@ -79,7 +79,7 @@ $ composer install
 [CANAL]
 HOST=Canal服务器的ip  例如：127.0.0.1
 PORT=Canal服务器的端口 例如：11111
-FILTER=.*\\..* 要监听的表的正则匹配
+FILTER=.*\..* 要监听的表的正则匹配
 
 [DB] 
 HOST=127.0.0.1  canal-php-framework要操作的数据库连接
