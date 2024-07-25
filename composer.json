@@ -1,0 +1,25 @@
+{
+    "name": "jiayi/canal",
+    "description": "Data synchronization calculation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "徐庭威",
+            "email": "245094499@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.4",
+        "xingwenge/canal_php": "dev-master",
+        "monolog/monolog": "^2.9",
+        "catfan/medoo": "^2.1",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+composer.lock
+.idea/
+test/
+runtime/
+vendor/
+.env
+test.php
